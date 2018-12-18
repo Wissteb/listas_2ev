@@ -1,0 +1,151 @@
+body {
+    background: lightgray;
+    font-family: sans-serif;
+  }
+
+
+
+  
+  ul.list0 {
+    list-style-type: disc;
+  }
+  
+  
+  
+  ul {
+    list-style-type: none;
+  }
+
+
+  h2 {
+    clear: both;
+    margin-bottom: 1px;
+    padding-top: 2px;
+
+}
+  
+  ul.list1 li {
+
+    background-color:#3DDC24   ;
+    color:#450676  ;
+    font-weight: bold;
+    text-align: center; 
+    float:left;
+    width: 10em;
+    border: 6px dashed violet;
+    margin-right: 15px;
+    padding: 7px ;
+  
+  }
+  
+  ul.list2 {
+    text-align: center;
+  }
+  
+  ul.list2 li {
+    margin: 1px 7px;
+    padding: 4px  0.5em;
+    background-color: white;  
+    display: inline;
+    border: white 2px solid;
+    border-color: white black black white;
+ 
+  }
+  
+  ul.list2 li:hover {
+    border: white 2px solid;
+    border-color: black white white black;
+    background-color: lightgray;
+  }
+  
+  ul.list3 {
+    width: 11em;
+    border: black 1px solid;
+    padding: 0.5em;
+    text-align: center;
+  }
+  
+  ul.list3 li {
+    width: 9em;
+    border: black 1px solid;
+    margin: 0.5em 0 0.5em 0.5em;
+    padding: 0.5em;
+    background-color: white;
+    text-align: center;
+  }
+  
+  ul.list4 {
+    text-align: center;
+  }
+  
+  ul.list4 li {
+    display: inline-block;
+    width: 10em;
+    margin: 0;
+    padding: 0.5em 0;
+    background-color: white;
+    color: #3366CC;
+    font-weight: bold;
+  }
+  
+  ul.list4 li.par {
+    background-color: #3366CC;
+    color: white;
+  }
+  
+  @font-face {
+    font-family: "MiMenu";
+    src: url("menu.woff");
+  }
+  
+  [class^="icon-"], [class*="icon-"] {
+    margin-right: 3px;
+    font-family: "Mimenu";
+    font-style: normal;
+  }
+  
+  .icon-inicio::before {
+    content: "\e900";
+  }
+  .icon-anadir::before {
+    content: "\ea0a";
+  }
+  .icon-listar::before {
+    content: "\e922";
+  }
+  .icon-borrar::before {
+    content: "\ea0b";
+  }
+  .icon-buscar::before {
+    content: "\e986";
+  }
+  .icon-modificar::before {
+    content: "\e905";
+  }
+  .icon-salir::before {
+    content: "\e9b6";
+  }
+  
+  ul.list5 li {
+    float:left;
+    margin-right: 2em;
+  }
+  
+  ul.list6 {
+    text-align: center;
+  }
+  
+  ul.list6 li {
+    display: inline;
+    border: black 0.1em solid;
+    border-radius: 0.3em;
+    margin-right: 1em;
+    padding: 0.5em 0.5em 0.3em;
+    background-color: white;
+    font-size: 200%;
+    line-height: 250%;
+  }
+  
+  ul.list6 i {
+    margin: 0;
+  }
